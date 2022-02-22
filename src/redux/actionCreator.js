@@ -1,17 +1,17 @@
 
-function addTask(task) {
+function setAlarm(task) {
    
   return {
      
-    type: 'ADD_TODO',
+    type: 'SET_ALARM',
     task: task
   }
 }
  
-function removeTask(task) {
+function alteredSetAlarm(task) {
   
   return {
-    type: 'REMOVE_TODO',
+    type: 'ALTERED_SET_ALARM',
     task: task
   }
 }

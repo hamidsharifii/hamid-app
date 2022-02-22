@@ -1,10 +1,19 @@
-const countReducer = function (state = 0, action) {
-  switch (action.type) {
-    case "INCREMENT":
-      return state + 1;
-    case "DECREMENT":
-      return state - 1;
+
+
+function task(tasks = [], action) {
+   
+  switch(action.type)
+  {
+    case 'SET_ALARM':
+      return;
+
+    case 'ALTERED_SET_ALARM':
+      return;
+
     default:
-      return state;
+      return tasks;
   }
-};
+
+
+    
+}
